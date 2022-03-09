@@ -1,5 +1,5 @@
 
-//write a program to fibnocci Series
+// write a program to fibnocci Series
 
 public class Fibnocci_Series
 {
