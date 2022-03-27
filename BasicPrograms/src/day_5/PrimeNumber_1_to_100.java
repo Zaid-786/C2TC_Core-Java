@@ -28,8 +28,6 @@ public class PrimeNumber_1_to_100 {
 			}
 		}
 
-
-
 	}
 
 }
