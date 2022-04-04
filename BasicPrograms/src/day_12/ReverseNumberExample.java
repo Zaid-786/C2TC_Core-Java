@@ -1,0 +1,27 @@
+package day_12;
+
+
+
+// write a program to Reverse a Number.
+
+public class ReverseNumberExample
+{
+	public static void main(String[] args)
+	{
+		int number = 12345, reverse = 0;  
+		
+		while(number != 0)   					//this is our main logic
+		{  
+		
+			int remainder = number % 10;  
+		
+			reverse = reverse * 10 + remainder;  
+		
+			number = number/10;  
+		}  
+		
+		System.out.println("The reverse of the given number is: " + reverse);  
+
+	}
+
+}
